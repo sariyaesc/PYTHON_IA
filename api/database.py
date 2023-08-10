@@ -25,3 +25,4 @@ cursor.execute("INSERT INTO usuarios (nombre, edad) VALUES (?,?)" , ("Juan",21))
 
 conn.commit()
 conn.close()
+
